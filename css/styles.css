@@ -1,0 +1,124 @@
+#banner {
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	min-height:40px;
+	background: green;
+	padding:20px 40px;
+	z-index:999;
+	color: white;
+	font-size: 40px;
+	box-sizing: border-box;
+}
+
+#banner button {
+	float: right;
+	font-size: 18px;
+	padding: 10px 20px;
+}
+
+#start button {
+	height: 50px;
+	width: 150px;
+	margin: 149px 0 0 20px;
+	/*margin: 264px 0 0 -188px;*/
+}
+
+.track {
+	margin-left: 250px	;
+	background-color: blue;
+	width: 928px;
+	height: 160px;
+	margin-top: 7px;
+	border-radius: 50px;
+	border: solid;
+	padding-top: 50px;
+}
+
+.player-1 {
+	/*margin-top: 100px;*/
+	/*margin-left: 50px;*/
+	color: black;
+	background-color: yellow;
+	width: 900px;
+	height: 50px;
+	/*border-top: 53px solid blue;*/
+	border-left: 15px solid blue;
+	border-bottom: 10px solid blue;
+}
+
+.player-2 {
+	/*margin-top: 100px;*/
+	/*margin-left: 50px;*/
+	background-color: red;
+	width: 900px;
+	height: 50px;
+	border-left: 15px solid blue;
+
+}
+
+.car1 {
+	background-color: black;
+	width: 20px;
+	height: 20px;
+	padding: 8px;
+	border-top: 8px solid yellow;
+}
+
+.car2 {
+	background-color: black;
+	width: 20px;
+	height: 20px;
+	padding: 12px;
+	border-top: 1px solid orange;
+	padding: 8px;
+	border-top: 8px solid red;
+}
+
+#entry {
+	margin-top: 150px;
+	margin-left: 336px;
+	display: inline;
+	float: right;
+	clear: both; 
+	display: block;
+	float: left;
+}
+
+#name1 {
+	border-radius: 3px;
+	margin-bottom: 8px;
+}
+
+#name2 {
+	border-radius: 3px;
+}
+
+.nameFill1 {
+	/*border: 2px solid black;*/
+	height: 46px;
+	margin-left: 27px;
+	width: 200px;
+	display: inline-block;
+	float: left;
+	clear: both;
+	margin-top: 74px;
+	font-size: 30px;
+	text-align: end;
+	padding: 8px;
+}
+
+.nameFill2 {
+	height: 46px;
+	margin: 4px 0 0 27px;
+	width: 200px;
+	display: inline-block;
+	float: left;
+	clear: both;
+	font-size: 30px;
+	text-align: end;
+	padding: 8px;
+}
+
